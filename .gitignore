@@ -4,6 +4,8 @@ cache/func__get_mesh_pred/
 cache/gp_models_r3/
 
 # Outputs generated when running the notebooks
+Active learning _BO/AL_*.png
+Active learning _BO/AL_*.csv
 batch/
 ot2_proc/
 model/
