@@ -1,0 +1,23 @@
+# Large regenerable cache (mesh predictions, >100 MB files; rebuilt automatically by the notebooks)
+cache/func__get_mesh_pred/
+# GP models re-trained and re-saved on every run of batch_AL_04
+cache/gp_models_r3/
+
+# Outputs generated when running the notebooks
+batch/
+ot2_proc/
+model/
+dataset/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+~$*
+.DS_Store
+.idea/
+.vscode/
